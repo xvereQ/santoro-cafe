@@ -276,6 +276,9 @@ footer div ul li{
     .imagenes-inicio img{
         height: 180px;
     }
+    .margin-card{
+        margin: 0px;
+    }
     .fondo-inicio{
         width: 90%;
         height: 350px;
