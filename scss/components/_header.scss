@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    .nav-bar{
+        background-image: url("../../img/papel-arrugado.jpg");
+
+    }
+
+}
+
+h1{
+    a{
+        text-decoration: none;
+        color: $color-menu;
+    }
+}
+
+nav{
+    ul{
+        li{
+            display: inline-block;
+            list-style: none;
+            margin: 10px 10px; 
+            a{
+                text-decoration: none;
+                color: $color-menu;
+            }
+            &:hover{
+                color: $color-hover;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,22 @@
+.cont-ubicacion{
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+    padding-bottom: $padding-bottom;
+    h2{
+            color: $color-texto;
+            &:first-child{
+                display: flex;
+                justify-content: center;
+                margin-top: 60px;
+                padding-top: $padding-top;
+            }
+    }
+    .ubicacion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: $margin-top;
+        margin-bottom: $margin-bottom;
+    }
+}
+

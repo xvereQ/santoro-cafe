@@ -1,0 +1,53 @@
+.div-forma{
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}   
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: $padding-bottom;
+    margin-top: $margin-top;
+}
+
+.forma-parte{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    .texto{
+            color: #ffffff;
+            font-size: 24px;
+    }
+}
+
+.h2{
+    color: $color-texto;
+    font-size: 32px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    background-color: $background;
+    color: white;
+    border-radius: 3px;
+    border: 2px solid $background;
+    margin-left: $margin-left;
+    &:hover{
+        cursor: pointer;
+        background-color: #5c3f2f;
+        border-radius: 3px;
+        border: 2px solid $background;
+    }
+}

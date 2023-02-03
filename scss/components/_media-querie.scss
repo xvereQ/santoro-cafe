@@ -1,0 +1,42 @@
+@media (max-width:768px){
+    .nav-bar{
+        width: 80%;
+    }
+    .imagenes-inicio{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:320px) and (max-width:600px){
+    .cont-texto{
+        padding: 15px 15px;
+    }
+}
+
+@media (min-width:320px) and (max-width:475px){
+    .imagenes-inicio {
+        img{
+            height: 180px;
+        }
+    }
+    .margin-card{
+        margin: 0px;
+    }
+    .fondo-inicio{
+        width: 90%;
+        height: 350px;
+    }
+}
+
+
+@media (min-width:1024px){
+    .cont-texto{
+        
+        padding: 0px;
+    }
+}

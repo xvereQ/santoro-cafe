@@ -1,0 +1,244 @@
+
+
+
+
+    
+
+
+/*-----------HEADER---------*/
+
+
+/*-----------Main---------*/
+
+
+.imagenes-inicio{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 140px;
+    margin-bottom: 40px;
+    
+}
+.imagenes-inicio div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  20px 20px;
+}
+.forma-parte{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.div-forma{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}   
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+.fondo-inicio{
+    background: #432818;
+    height: 500px;
+    width: 75%;
+}
+.texto{
+    color: #ffffff;
+    font-size: 24px;
+}
+.cont-texto{
+    width: 75%;
+    height: 500px;
+    padding: 80px 230px;
+}
+main{
+    background-color: #bb9457;
+    margin-top: 120px;
+    padding-bottom: 80px;
+}
+/*colores pagina 
+bb9457
+6f1d1b
+432818
+99582a
+ffe6a7
+*/
+.contenedor{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+.contenedor h2{
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+h2:first-child{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-top: 40px;
+}
+.ubicacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    background-color: #432818;
+    color: white;
+    border-radius: 3px;
+    border: 2px solid #432818;
+    margin-left: 40px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #5c3f2f;
+    border-radius: 3px;
+    border: 2px solid #432818;
+    
+}
+.cont-ubicacion{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+.cont-ubicacion h2{
+    color: #ffffff;
+}
+.h2{
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.conocerte{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.conocerte h2{
+    display: flex;
+    justify-content: center;
+}
+.conocerte .p-1{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    padding-right: 200px;
+    padding-left: 100px;
+    width: 50%;
+}
+.conocerte .p-2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 1200px;
+    padding-right: 100px;
+}
+
+.margin-card{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+}
+.mb-container{
+    margin-bottom: 20px;
+}
+
+
+
+/*-----------FOOTER---------*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #432818;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h3{
+    color: #ffe6a7;
+    display: flex;
+    justify-content: center;
+}
+footer div ul li{
+    list-style: none;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.lista-redes{
+    display: inline-block;
+    list-style: none;
+    margin: 30px 10px;
+}
+
+/**media query**/
+@media (max-width:768px){
+    .nav-bar{
+        width: 80%;
+    }
+    .imagenes-inicio{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
+
+@media (min-width:320px) and (max-width:600px){
+    .cont-texto{
+        padding: 15px 15px;
+    }
+}
+
+@media (min-width:320px) and (max-width:475px){
+    .imagenes-inicio img{
+        height: 180px;
+    }
+    .margin-card{
+        margin: 0px;
+    }
+    .fondo-inicio{
+        width: 90%;
+        height: 350px;
+    }
+}
+
+
+@media (min-width:1024px){
+    .cont-texto{
+        padding: 0px;
+    }
+}
+
+

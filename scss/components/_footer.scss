@@ -1,0 +1,32 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: $background;
+    padding-top: $padding-top;
+    padding-bottom: $padding-bottom;
+}
+
+
+footer{
+    h3{
+        color: #ffe6a7;
+        display: flex;
+        justify-content: center;
+        
+    }
+    div{
+        ul{
+            li{
+                list-style: none;
+                color: #ffffff;
+                margin-top: 30px;
+
+            }
+            .lista-redes{
+                display: inline-block;
+                list-style: none;
+                margin: 30px 10px;
+            }
+        }
+    }
+}
